@@ -121,26 +121,26 @@ body {
 }
 
 /* Map */
-#map {
+/* #map {
  height: 300px;
  width: 80vh;
-}
+} */
 
 /* Add this to your existing CSS */
 
 /* Desktop and laptop screens */
 @media (min-width: 1200px) {
     #map {
-      height: 400px;
-      width: 100vh;
+      height: 300px;
+      width: 80vh;
     }
   }
   
   /* Tablet screens */
   @media (min-width: 768px) and (max-width: 1199px) {
     #map {
-      height: 300px;
-      width: 80vh;
+      height: 250px;
+      width: 50vh;
     }
   }
   
@@ -177,5 +177,12 @@ body {
     #map {
       height: 120px;
       width: 40vh;
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 451px) {
+    #map {
+      height: 80px;
+      width: 20vh;
     }
   }

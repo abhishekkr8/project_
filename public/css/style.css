@@ -125,3 +125,57 @@ body {
  height: 300px;
  width: 80vh;
 }
+
+/* Add this to your existing CSS */
+
+/* Desktop and laptop screens */
+@media (min-width: 1200px) {
+    #map {
+      height: 400px;
+      width: 100vh;
+    }
+  }
+  
+  /* Tablet screens */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #map {
+      height: 300px;
+      width: 80vh;
+    }
+  }
+  
+  /* Mobile screens */
+  @media (max-width: 767px) {
+    #map {
+      height: 200px;
+      width: 60vh;
+    }
+  }
+
+  @media (max-width: 555px) {
+    #map {
+      height: 150px;
+      width: 60vh;
+    }
+  }
+
+  @media (max-width: 461px ) {
+    #map {
+      height: 150px;
+      width: 60vh;
+    }
+  }
+
+  @media (max-width: 460px ) {
+    #map {
+      height: 150px;
+      width: 60vh;
+    }
+  }
+
+  @media (max-width: 451px ) {
+    #map {
+      height: 120px;
+      width: 40vh;
+    }
+  }
